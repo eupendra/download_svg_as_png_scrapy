@@ -10,6 +10,10 @@
 
 ### Windows
 
+- Download the latest [GTK3 installer](https://github.com/tschoonj/GTK-for-Windows-Runtime-Environment-Installer/releases).
+- Install (VC++ runtime)[https://aka.ms/vs/17/release/vc_redist.x64.exe]
+- `pip install cairosvg`
+
 ### Linux
 
 install the cairo, python3-dev and libffi-dev packages (names may vary for your distribution)
