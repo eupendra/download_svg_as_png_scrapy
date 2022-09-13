@@ -1,18 +1,16 @@
 # Download SVG files as PNG with Scrapy
 
-## Install Package
-- `pip install CairoSVG`
-
 ## Install Dependecies
 
 ### macOS
 `brew install cairo libffi`
+`pip install CairoSVG`
 
 ### Windows
 
-- Download the latest [GTK3 installer](https://github.com/tschoonj/GTK-for-Windows-Runtime-Environment-Installer/releases).
-- Install (VC++ runtime)[https://aka.ms/vs/17/release/vc_redist.x64.exe]
-- `pip install cairosvg`
+- Download the latest [GTK3 installer](https://github.com/tschoonj/GTK-for-Windows-Runtime-Environment-Installer/releases)
+- Install [VC++ runtime](https://aka.ms/vs/17/release/vc_redist.x64.exe)
+- Run `pip install cairosvg`
 
 ### Linux
 
